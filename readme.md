@@ -24,7 +24,8 @@ with the following environment variable
 * APPROVALS is the number of required approvals that are required for a label to be applied, please set this to "1"
 * GITHUB_TOKEN is necessary so the action can create and apply labels to this repository. 
 
-* ADD_LABEL is the name of the label which should be added when the number of approvals have been met, choose any label name you wish
-# add branch protection rules to  avoid merging to the wrong branch
+* ADD_LABEL is the name of the label which should be added when the number of approvals have been met, choose any label name you wish.
+# branch protection rules
+disable force pushing, prevent branches from being delete
 
 
